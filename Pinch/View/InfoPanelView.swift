@@ -51,7 +51,7 @@ struct InfoPanelView: View {
             }
             .font(.footnote)
             .padding(8)
-            .backgroundStyle(.ultraThinMaterial)
+            .background(.ultraThinMaterial)
             .cornerRadius(8)
             .frame(maxWidth: 420)
             .opacity(isInfoPanelVisable ? 1 : 0)
